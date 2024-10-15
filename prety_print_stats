@@ -1,0 +1,6 @@
+#!/bin/bash
+for file in hun_books/*/?????.stats; do
+    json_reformat < "$file" > "${file%.stats}_pretty.stats"
+    rm $file
+    mv "${file%.stats}_pretty.stats" $file
+done
