@@ -17,6 +17,7 @@ This is a bunch of AI related notebooks I used for some tasks.
 | solar-10.7b-instruct-v1.0.Q6_K.gguf | 0.0673 | 8.0% | 0.478 | 0.699
 | Ministral-8B-Instruct-2410-Q6_K_L.gguf | 0.0672 | 6.8% | 0.416 | 0.654
 | c4ai-command-r-v01.i1-Q4_K_S.gguf | 0.0667 | 6.1% | 0.436 | 0.704
+| gemma-2-2b-it-Q6_K_L.gguf | 0.0619 | 4.5% | 0.426 | 0.624
 | Llama-3.2-3B-Instruct-Q6_K_L.gguf | 0.0534 | 4.1% | 0.419 | 0.614
 | Mistral-NeMo-Minitron-8B-Instruct-Q6_K_L.gguf | 0.0497 | 7.9% | 0.432 | 0.728
 | Yi-1.5-34B-Chat-Q4_K_M.gguf | 0.0462 | 12.3% | 0.439 | 0.809
