@@ -10,6 +10,7 @@ This is a bunch of AI related notebooks I used for some tasks.
 | salamandra-7b-instruct.Q6_K.gguf | 0.1157 | 2.9% | 0.437 | 0.588
 | Meta-Llama-3.1-70B-Instruct-Q2_K.gguf | 0.1141 | 4.5% | 0.452 | 0.723
 | PULI-LlumiX-32K-Instruct-Q4_K_M.gguf | 0.1132 | 2.9% | 0.426 | 0.499
+| gemma-2-9b-it-Q6_K_L.gguf | 0.1125 | 3.2% | 0.495 | 0.799
 | mixtral-8x7b-instruct-v0.1.Q5_K_M.gguf | 0.0946 | 3.6% | 0.450 | 0.762
 | Meta-Llama-3.1-8B-Instruct-Q6_K_L.gguf | 0.0870 | 3.5% | 0.447 | 0.740
 | Qwen2.5-32B-Instruct-Q4_K_L.gguf | 0.0705 | 8.3% | 0.456 | 0.811
