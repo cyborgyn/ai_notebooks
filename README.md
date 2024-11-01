@@ -18,10 +18,12 @@ This is a bunch of AI related notebooks I used for some tasks.
 | Ministral-8B-Instruct-2410-Q6_K_L.gguf | 0.0672 | 6.8% | 0.416 | 0.654
 | c4ai-command-r-v01.i1-Q4_K_S.gguf | 0.0667 | 6.1% | 0.436 | 0.704
 | gemma-2-2b-it-Q6_K_L.gguf | 0.0619 | 4.5% | 0.426 | 0.624
+| salamandra-2b-instruct_Q6_K.gguf | 0.0600 | 8.6% | 0.425 | 0.316
 | Llama-3.2-3B-Instruct-Q6_K_L.gguf | 0.0534 | 4.1% | 0.419 | 0.614
 | Mistral-NeMo-Minitron-8B-Instruct-Q6_K_L.gguf | 0.0497 | 7.9% | 0.432 | 0.728
 | Yi-1.5-34B-Chat-Q4_K_M.gguf | 0.0462 | 12.3% | 0.439 | 0.809
 | llama-2-7b-32k-instruct.Q5_K_M.gguf | 0.0450 | 13.5% | 0.412 | 0.641
+| Phi-3-medium-4k-instruct-Q6_K_L.gguf | 0.0373 | 8.4 | 0.024 | 0.716
 | gpt-35-turbo-instruct | 0.0264 | 8.0% | 0.480 | ---
 | Phi-3-mini-4k-instruct-q4.gguf | 0.0186 | 11.6% | 0.405 | 0.659
 | falcon-mamba-7b-instruct.Q6_K.gguf | 0.0000 | 54.4% | 0.365 | ---
@@ -38,6 +40,10 @@ SambaLingo-Hungarian-Chat is further trained of llama-2-7b. It translates much b
 Note 3:
 
 falcon-mamba-7b was so bad, it practically output gibberish. It's spell error is only 54%, because the other 46% were numbers. It's also very slow, and had very high request error rate for classification tasks, so I stopped mid running the GLUE eval process.
+
+Note 4:
+
+Even though gpt-35-turbo-instruct has a high HULU score (one of the highest), it's translation and hungarian spelling capabilities are very bad.
 
 ## Files in this repo
 - **HUN_Book_scraping.ipynb**: a scraper to download most PDF files and their metadata from OSzK (Országos Széchenyi Könyvtár) MEK (Magyar Elektronikus Könyvtár)
