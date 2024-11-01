@@ -23,7 +23,7 @@ This is a bunch of AI related notebooks I used for some tasks.
 | Mistral-NeMo-Minitron-8B-Instruct-Q6_K_L.gguf | 0.0497 | 7.9% | 0.432 | 0.728
 | Yi-1.5-34B-Chat-Q4_K_M.gguf | 0.0462 | 12.3% | 0.439 | 0.809
 | llama-2-7b-32k-instruct.Q5_K_M.gguf | 0.0450 | 13.5% | 0.412 | 0.641
-| Phi-3-medium-4k-instruct-Q6_K_L.gguf | 0.0373 | 8.4 | 0.024 | 0.716
+| Phi-3-medium-4k-instruct-Q6_K_L.gguf | 0.0373 | 8.4 | 0.413 | 0.716
 | gpt-35-turbo-instruct | 0.0264 | 8.0% | 0.480 | ---
 | Phi-3-mini-4k-instruct-q4.gguf | 0.0186 | 11.6% | 0.405 | 0.659
 | falcon-mamba-7b-instruct.Q6_K.gguf | 0.0000 | 54.4% | 0.365 | ---
