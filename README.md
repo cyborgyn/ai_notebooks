@@ -51,7 +51,7 @@ Even though gpt-35-turbo-instruct has a high HULU score (one of the highest), it
 
 Note 5:
 
-DeepSeek-R1-Distill-Qwen-32B uses a different output, first <thinking> then <responding>, thus the unmodified en->hu BLEU evaluation also takes into consideration the preceding english thinking output, and substantially makes results worse, even though it has the highest GLUE score, and midrange HuLU score (though slightly worse then the original Qwen2.5-32B).
+DeepSeek-R1-Distill-Qwen-32B uses a different output format, first "thinks" then "responds", thus the unmodified en->hu BLEU evaluation also takes into consideration the preceding english "thinking" output, and substantially makes results worse, even though it has the highest GLUE score, and midrange HuLU score (though slightly worse then the original Qwen2.5-32B).
 
 ## Files in this repo
 - **HUN_Book_scraping.ipynb**: a scraper to download most PDF files and their metadata from OSzK (Országos Széchenyi Könyvtár) MEK (Magyar Elektronikus Könyvtár)
