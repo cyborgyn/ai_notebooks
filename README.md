@@ -29,6 +29,7 @@ This is a bunch of AI related notebooks I used for some tasks.
 | gpt-35-turbo-instruct | 0.0264 | 8.0% | 0.480 | ---
 | OLMoE-1B-7B-0924-Instruct-Q6_K_L.gguf | 0.0201 | 10.6% | 0.374 | 0.574
 | Phi-3-mini-4k-instruct-q4.gguf | 0.0186 | 11.6% | 0.405 | 0.659
+| DeepSeek-R1-Distill-Qwen-32B-Q4_K_L.gguf | 0.0013 | 55.2% | 0.452 | 0.816
 | falcon-mamba-7b-instruct.Q6_K.gguf | 0.0000 | 54.4% | 0.365 | ---
 
 Notes 1:
@@ -47,6 +48,10 @@ falcon-mamba-7b was so bad, it practically output gibberish. It's spell error is
 Note 4:
 
 Even though gpt-35-turbo-instruct has a high HULU score (one of the highest), it's translation and hungarian spelling capabilities are very bad.
+
+Note 5:
+
+DeepSeek-R1-Distill-Qwen-32B uses a different output, first <thinking> then <responding>, thus the unmodified en->hu BLEU evaluation also takes into consideration the preceding english thinking output, and substantially makes results worse, even though it has the highest GLUE score, and midrange HuLU score (though slightly worse then the original Qwen2.5-32B).
 
 ## Files in this repo
 - **HUN_Book_scraping.ipynb**: a scraper to download most PDF files and their metadata from OSzK (Országos Széchenyi Könyvtár) MEK (Magyar Elektronikus Könyvtár)
