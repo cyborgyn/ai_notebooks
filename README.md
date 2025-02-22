@@ -11,6 +11,7 @@ This is a bunch of AI related notebooks I used for some tasks.
 | Meta-Llama-3.1-70B-Instruct-Q2_K.gguf | 0.1141 | 4.5% | 0.452 | 0.723
 | PULI-LlumiX-32K-Instruct-Q4_K_M.gguf | 0.1132 | 2.9% | 0.426 | 0.499
 | gemma-2-9b-it-Q6_K_L.gguf | 0.1125 | 3.2% | 0.495 | 0.799
+| Mistral-Small-24B-Instruct-2501-Q6_K.gguf | 0.1036 | 5.2% | 0.482 | 0.811
 | phi-4-Q6_K.gguf | 0.0981 | 3.4% | 0.468 | 0.791
 | Llama-3.3-70B-Instruct-Q2_K.gguf | 0.0954 | 9.3% | 0.462 | 0.788
 | mixtral-8x7b-instruct-v0.1.Q5_K_M.gguf | 0.0946 | 3.6% | 0.450 | 0.762
