@@ -6,6 +6,7 @@ This is a bunch of AI related notebooks I used for some tasks.
 | LLM | en->hu BLEU | Spell error % | HuLU avg | GLUE avg |
 | --- | ----------- | ------------- | -------- | -------- |
 | gemma-2-27b-it-Q5_K_L.gguf | 0.1364 | 3.3% | 0.478 | 0.799
+| google_gemma-3-27b-it-Q5_K_L.gguf | 0.1327 | 3.3% | 0.487 | 0.804
 | SambaLingo-Hungarian-Chat-Q5_K_M.gguf | 0.1302 | 1.8% | 0.415 | 0.339
 | salamandra-7b-instruct.Q6_K.gguf | 0.1157 | 2.9% | 0.437 | 0.588
 | Meta-Llama-3.1-70B-Instruct-Q2_K.gguf | 0.1141 | 4.5% | 0.452 | 0.723
