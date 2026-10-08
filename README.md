@@ -6,6 +6,7 @@ This is a bunch of AI related notebooks I used for some tasks.
 | LLM | en->hu BLEU | Spell error % | HuLU avg | GLUE avg |
 | --- | ----------- | ------------- | -------- | -------- |
 | MichelRosselli/apertus:70b-instruct-2509-q4_k_m| 0.1478 | 2.7% | 0.627 | ---
+| onprem-ai/Apertus-v1.5-8B-FP8 | 0.1376 | 2.1% | 0.640 | 0.722
 | gemma-2-27b-it-Q5_K_L.gguf | 0.1364 | 3.3% | 0.727 | 0.799
 | google_gemma-3-27b-it-Q5_K_L.gguf | 0.1327 | 3.3% | 0.759 | 0.804
 | MichelRosselli/apertus:8b-instruct-2509-q4_k_m | 0.1313 | 2.5% | 0.616 | 0.652
